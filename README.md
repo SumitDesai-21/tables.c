@@ -1,11 +1,11 @@
-# 📊 Student Grade Analysis System — `tables.c`
+# Student Grade Analysis System — `tables.c`
 
 A **C-based grade analysis system** that processes student data from CSV files to calculate grades, compute CGPA, identify toppers, and detect failed subjects.
 This project emphasizes **core logic-building skills** by avoiding built-in string functions like `strtok`, instead using **custom parsing methods** for enhanced modularity and learning.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This program simulates a **student grade analysis system** that:
 
@@ -24,17 +24,17 @@ It’s designed for **students and developers** looking to strengthen their C pr
 
 ---
 
-## 🛠️ Features
+## Features
 
-* ✅ **Grade Calculation:** Computes grades and CGPA for every student.
-* ✅ **Topper Identification:** Detects both subject-wise and semester-wise toppers.
-* ✅ **Failure Detection:** Lists failed subjects for each student.
-* ✅ **Modular Structure:** Built with **custom functions** for clean, maintainable code.
-* ✅ **Pure C Logic:** No use of functions like `strtok`—all string parsing is done manually for deep learning.
+* **Grade Calculation:** Computes grades and CGPA for every student.
+* **Topper Identification:** Detects both subject-wise and semester-wise toppers.
+* **Failure Detection:** Lists failed subjects for each student.
+* **Modular Structure:** Built with **custom functions** for clean, maintainable code.
+* **Pure C Logic:** No use of functions like `strtok`—all string parsing is done manually for deep learning.
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
 .
@@ -47,7 +47,7 @@ It’s designed for **students and developers** looking to strengthen their C pr
 
 ---
 
-## 📄 CSV File Descriptions
+## CSV File Descriptions
 
 ### `subjects.csv`
 
@@ -71,7 +71,7 @@ It’s designed for **students and developers** looking to strengthen their C pr
 
 --- 
 
-## ⚙️ How to Run
+## How to Run
 
 ### 1. Clone the Repository
 
@@ -94,14 +94,14 @@ gcc tables.c -o t
 ./t
 ```
 
-### ✅ Prerequisites:
+### Prerequisites:
 
 * GCC compiler installed (`sudo apt install gcc` on Linux Terminal).
 * All CSV files (`subjects.csv`, `grades.csv`, `marks.csv`) must be in the **same directory** as `tables.c`.
 
 ---
 
-## 🏧 Key Concepts Used
+## Key Concepts Used
 
 * File I/O in C (`fopen`, `fgets`, etc.)
 * Manual string parsing
@@ -111,7 +111,7 @@ gcc tables.c -o t
 
 ---
 
-## 📈 Learning Objectives
+## Learning Objectives
 
 * Master **file operations** and **data parsing** in C.
 * Enhance **problem-solving** by writing manual string parsers.
@@ -119,7 +119,7 @@ gcc tables.c -o t
 
 ---
 
-## 🌟 Future Enhancements
+## Future Enhancements
 
 * Support for dynamic data (currently limited by static array sizes).
 * Improved UI/UX for terminal output.
@@ -127,20 +127,15 @@ gcc tables.c -o t
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Contributions, suggestions, and improvements are welcome!
 Feel free to fork this repository, raise an issue, or submit a pull request.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.
 
 ---
-
-## 👨‍💻 Author
-
-**Sumit Desai**
-*Passionate about C programming, problem-solving, and building efficient solutions.*
