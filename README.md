@@ -1,9 +1,26 @@
-## Student Grade Analysis System
+<p align="center">
+  <img src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/external-readme-is-a-easy-to-build-a-developer-hub-that-adapts-to-the-user-logo-regular-tal-revivo.png" width="100" />
+</p>
+<p align="center">
+    <h1 align="center">Student Grade Analysis System</h1>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/last-commit/SumitDesai-21/tables.c?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/SumitDesai-21/tables.c?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/SumitDesai-21/tables.c?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with: </em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/C-A8B9CC.svg?style=flat&logo=C&logoColor=black" alt="C">
+</p>
+<hr>
+
+### Project Overview
 
 A **C-based grade analysis system** that processes student data from CSV files to calculate grades, compute CGPA, identify toppers, and detect failed subjects.
 This project emphasizes **core logic-building skills** by avoiding built-in string functions like `strtok`, instead using **custom parsing methods** for enhanced modularity and learning.
-
-### Project Overview
 
 This program simulates a **student grade analysis system** that:
 
