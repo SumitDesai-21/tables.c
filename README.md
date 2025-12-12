@@ -60,8 +60,6 @@ It’s designed for **Students and Programmers** looking to strengthen their C p
 |  -------  | --------- | ----- | ----- |------- | ------| ----- | ----- |
 | 612303001 | 82        | 85    | 90    | 67     | 68    |  85   |  90   |
 
---- 
-
 ### How to Run
 
 #### 1. Clone the Repository
