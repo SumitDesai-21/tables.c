@@ -1,11 +1,9 @@
-# Student Grade Analysis System — `tables.c`
+## Student Grade Analysis System
 
 A **C-based grade analysis system** that processes student data from CSV files to calculate grades, compute CGPA, identify toppers, and detect failed subjects.
 This project emphasizes **core logic-building skills** by avoiding built-in string functions like `strtok`, instead using **custom parsing methods** for enhanced modularity and learning.
 
----
-
-## Project Overview
+### Project Overview
 
 This program simulates a **student grade analysis system** that:
 
@@ -20,11 +18,9 @@ This program simulates a **student grade analysis system** that:
   * Identify subject toppers and semester toppers.
   * Detect subjects where students have failed.
 
-It’s designed for **students and developers** looking to strengthen their C programming skills through **file handling**, **data processing**, and **modular design**.
+It’s designed for **Students and Programmers** looking to strengthen their C programming skills through **file handling**, **data processing**, and **modular design**.
 
----
-
-## Features
+### Features
 
 * **Grade Calculation:** Computes grades and CGPA for every student.
 * **Topper Identification:** Detects both subject-wise and semester-wise toppers.
@@ -32,10 +28,7 @@ It’s designed for **students and developers** looking to strengthen their C pr
 * **Modular Structure:** Built with **custom functions** for clean, maintainable code.
 * **Pure C Logic:** No use of functions like `strtok`—all string parsing is done manually for deep learning.
 
----
-
-## File Structure
-
+### File Structure
 ```
 .
 ├── tables.c              # Main C source file with all logic
@@ -45,25 +38,23 @@ It’s designed for **students and developers** looking to strengthen their C pr
 └── README.md             # Project documentation
 ```
 
----
+### CSV File Descriptions
 
-## CSV File Descriptions
-
-### `subjects.csv`
+#### `subjects.csv`
 
 | Subject Name       | Credits      | Semester     |
 | ------------------ | ------------ | ------------ |
 | PSPP               | 3            | 1            |
 | CL                 | 1            | 1            |
 
-### `grades.csv`
+#### `grades.csv`
 
 | Min Marks | Max Marks | Grade | Grade Point |
 | --------- | --------- | ----- | ----------- |
 | 77        | 88        | AA    | 10          |
 | 60        | 77        | AB    | 9           |
 
-### `marks.csv`
+#### `marks.csv`
 
 |  MIS NO.  | PSPP      | CL    | PPL   |  DSA   | OS    |  CN   |  TOC  |
 |  -------  | --------- | ----- | ----- |------- | ------| ----- | ----- |
@@ -71,16 +62,16 @@ It’s designed for **students and developers** looking to strengthen their C pr
 
 --- 
 
-## How to Run
+### How to Run
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/SumitDesai-21/grade_analysis_system.git
 cd grade_analysis_system
 ```
 
-### 2. Compile the Program
+#### 2. Compile the Program
 
 Use `gcc` to compile the project:
 
@@ -88,20 +79,18 @@ Use `gcc` to compile the project:
 gcc tables.c -o t
 ```
 
-### 3. Run the Program
+#### 3. Run the Program
 
 ```bash
 ./t
 ```
 
-### Prerequisites:
+#### Prerequisites:
 
 * GCC compiler installed (`sudo apt install gcc` on Linux Terminal).
 * All CSV files (`subjects.csv`, `grades.csv`, `marks.csv`) must be in the **same directory** as `tables.c`.
 
----
-
-## Key Concepts Used
+### Key Concepts Used
 
 * File I/O in C (`fopen`, `fgets`, etc.)
 * Manual string parsing
@@ -109,33 +98,19 @@ gcc tables.c -o t
 * Custom functions for modularity and reusability
 * Error handling for file operations
 
----
-
-## Learning Objectives
+### Learning Objectives
 
 * Master **file operations** and **data parsing** in C.
 * Enhance **problem-solving** by writing manual string parsers.
 * Understand how to design modular, scalable C projects.
 
----
-
-## Future Enhancements
-
-* Support for dynamic data (currently limited by static array sizes).
-* Improved UI/UX for terminal output.
-* Export analysis reports to new CSV files.
-
----
-
-## Contributions
+### Contributions
 
 Contributions, suggestions, and improvements are welcome!
 Feel free to fork this repository, raise an issue, or submit a pull request.
 
----
-
-## License
-
-This project is licensed under the **MIT License**.
-
----
+### About the Author
+ - **LinkedIn**: [Sumit Desai](https://linkedin.com/in/sumit-v-d-3b6a9632a)
+ - **GitHub**: [Sumit Desai](https://github.com/SumitDesai-21)
+ 
+Happy Coding! :heart:
